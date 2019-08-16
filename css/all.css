@@ -6,4 +6,10 @@ body {
 .main {
   min-height: calc(100vh - (49px + 49px + 42px + 14px));
 }
+
+@media (max-width: 576px) {
+  .d-none {
+    display: block !important;
+  }
+}
 /*# sourceMappingURL=all.css.map */
